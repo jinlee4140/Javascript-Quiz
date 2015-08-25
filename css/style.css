@@ -1,5 +1,5 @@
 body {
-	background:#f06226;
+	background:#6495ED;
 	color:#fff;
 	font-family:'Arial', sans-serif;
 	font-size:14px;
@@ -7,7 +7,7 @@ body {
 
 #container {
 	width:60%;
-	background:#199fdb;
+	background:#BC8F8F;
 	margin:20px auto; /* auto makes it go to middle */
 	overflow:auto; /* what is overflow? */
 	padding:25px; /* what is padding? */
@@ -40,7 +40,7 @@ footer {
 }
 
 input[type='submit'] {
-	background: #f06226;
+	background: #6495ED;
 	border: 0;
 	color: #fff;
 	padding: 10px 15px;  /* 10px for the top and bottom, and 15px for the right and left */
@@ -49,7 +49,7 @@ input[type='submit'] {
 
 
 #results h3 {
-	background: #f06226;   /* I don't get this part */
+	background: #6495ED;   /* I don't get this part */
 	padding: 10px;
 	margin: 10px 0;
 }
