@@ -2,5 +2,60 @@ body {
 	background:#f06226;
 	color:#fff;
 	font-family:'Arial', sans-serif;
-	font-size:14;
+	font-size:14px;
+}
+
+#container {
+	width:60%;
+	background:#199fdb;
+	margin:20px auto; /* auto makes it go to middle */
+	overflow:auto; /* what is overflow? */
+	padding:25px; /* what is padding? */
+}
+
+
+header {
+	text-align: center;
+	border-bottom:#fff dashed 1px; /* gives dash lines */
+
+}
+
+header h1 {
+	margin:0;
+	padding:0;
+}
+
+header p {
+	padding: 0;
+	margin-top: 5px;
+	color: #000;
+}
+
+section {
+	min-height: 400px; /* What is the difference between min-height and height? */
+}
+
+footer {
+	text-align:center;
+}
+
+input[type='submit'] {
+	background: #f06226;
+	border: 0;
+	color: #fff;
+	padding: 10px 15px;  /* 10px for the top and bottom, and 15px for the right and left */
+	cursor: pointer; /* if you hover through the submit button, the cursor will point at the buttom */
+}
+
+
+#results h3 {
+	background: #f06226;   /* I don't get this part */
+	padding: 10px;
+	margin: 10px 0;
+}
+
+#results span{
+	color:#000;
+	font-weight: bold;
+
 }
